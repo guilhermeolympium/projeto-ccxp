@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    height: 118px;
+    background-color: #FFD900;
+;
+}
+
+#logo {
+    margin: 25px 0 25px 55px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+main h2, p {
+    font-size: 30px;
+}
+
+#texto-evento {
+    background-color: #514988;
+    text-align: center;
+
+    width: 50%;
+    padding: 30px 60px;
+}
+
+
+#texto-evento h1 {
+    font-size: 70px;
+    color: #F3C61F;
+    
+    margin-bottom: 35px;
+}
+
+#texto-evento h2 {
+    font-size: 30px;
+    color: #FFFFFF;
+    
+    margin-bottom: 70px;
+}
+
+#texto-evento p {
+    font-size: 30px;
+    color: #FFFFFF;
+    
+}
+
+#countdown {
+    display: flex;
+    justify-content: space-between;
+}
+
+#countdown div {
+    display: inline-block;
+}
+
+#video-contador {
+    width: 50%;
+    padding: 30px 60px;
+    text-align: center;
+}
+
+#video-contador h1, p {
+    font-size: 70px;
+    color: #514988;
+    margin-bottom: 35px;
+    display: inline;
+}
+
+#video-contador h2{
+    color: #E33881;
+}
+
+video {
+    height: 510px;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+    padding: 15px 60px;
+}
+
+
+#ingressos {
+    width: 50%;
+}
+
+#ingressos p {
+    font-size: 25px;
+    font-weight: 700;
+    color: #F3C61F;
+}
+
+#ingressos img:hover {
+    scale: 1.1;
+    transition: 0.5s ease-in-out;
+}
+
+#cta {
+    width: 50%;
+}
+
+button:hover {
+    scale: 1.1;
+    transition: 0.5s ease-in-out;
+}
+
+button {
+    width: 596px;
+    height: 148px;
+
+    border: none;
+    border-radius: 20px;
+    background-color: #514988;
+
+    font-size: 42px;
+    font-weight: 700;
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
